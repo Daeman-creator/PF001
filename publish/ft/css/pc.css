@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@font-face{
+    font-family: 'NotoSansKR';
+    src:url(../font/NotoSansKR-Medium.woff) format("woff");
+}
+
+
 .star.pulse { animation: starlite 2s infinite;}
 @-webkit-keyframes starlite {
     0% { background: powderblue;
